@@ -25,9 +25,6 @@
 		B70D1C9B21EF7DE100C2FF63 /* Bass.wav in Resources */ = {isa = PBXBuildFile; fileRef = B70D1C9221EF7DE000C2FF63 /* Bass.wav */; };
 		B70D1C9C21EF7DE100C2FF63 /* Piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = B70D1C9321EF7DE000C2FF63 /* Piano.wav */; };
 		B70D1CA221EFCD9E00C2FF63 /* Dub Smashkick.wav in Resources */ = {isa = PBXBuildFile; fileRef = B70D1CA121EFCD9E00C2FF63 /* Dub Smashkick.wav */; };
-		B712BB5E21ED188F00481F30 /* SynthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B712BB5D21ED188F00481F30 /* SynthViewController.swift */; };
-		B7F3C58021EE704300F4FC14 /* InfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3C57F21EE704300F4FC14 /* InfoScene.swift */; };
-		B7F3C58821EE715C00F4FC14 /* InfoScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7F3C58721EE715C00F4FC14 /* InfoScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,9 +60,6 @@
 		B70D1C9221EF7DE000C2FF63 /* Bass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bass.wav; sourceTree = "<group>"; };
 		B70D1C9321EF7DE000C2FF63 /* Piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Piano.wav; sourceTree = "<group>"; };
 		B70D1CA121EFCD9E00C2FF63 /* Dub Smashkick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dub Smashkick.wav"; sourceTree = "<group>"; };
-		B712BB5D21ED188F00481F30 /* SynthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynthViewController.swift; sourceTree = "<group>"; };
-		B7F3C57F21EE704300F4FC14 /* InfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoScene.swift; sourceTree = "<group>"; };
-		B7F3C58721EE715C00F4FC14 /* InfoScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = InfoScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,14 +93,11 @@
 		087F0F042195E93E00676B5F /* LiveSynth */ = {
 			isa = PBXGroup;
 			children = (
-				B7F3C57A21EE4A4900F4FC14 /* Muisc Files */,
+				B7F3C57A21EE4A4900F4FC14 /* Music Files */,
 				087F0F052195E93E00676B5F /* AppDelegate.swift */,
 				087F0F072195E93E00676B5F /* GameScene.sks */,
 				087F0F092195E93E00676B5F /* Actions.sks */,
-				B7F3C58721EE715C00F4FC14 /* InfoScene.sks */,
-				B7F3C57F21EE704300F4FC14 /* InfoScene.swift */,
 				087F0F0B2195E93E00676B5F /* GameScene.swift */,
-				B712BB5D21ED188F00481F30 /* SynthViewController.swift */,
 				08F1980621EB686B00FE233A /* GameViewController.swift */,
 				087F0F0F2195E93E00676B5F /* Main.storyboard */,
 				087F0F142195E94100676B5F /* LaunchScreen.storyboard */,
@@ -116,7 +107,7 @@
 			path = LiveSynth;
 			sourceTree = "<group>";
 		};
-		B7F3C57A21EE4A4900F4FC14 /* Muisc Files */ = {
+		B7F3C57A21EE4A4900F4FC14 /* Music Files */ = {
 			isa = PBXGroup;
 			children = (
 				B70D1CA121EFCD9E00C2FF63 /* Dub Smashkick.wav */,
@@ -129,7 +120,7 @@
 				B70D1C8C21EF7DDF00C2FF63 /* Synth.wav */,
 				B70D1C9221EF7DE000C2FF63 /* Bass.wav */,
 			);
-			path = "Muisc Files";
+			path = "Music Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +203,6 @@
 				B70D1C9B21EF7DE100C2FF63 /* Bass.wav in Resources */,
 				087F0F132195E94100676B5F /* Assets.xcassets in Resources */,
 				B70D1C9521EF7DE100C2FF63 /* Synth.wav in Resources */,
-				B7F3C58821EE715C00F4FC14 /* InfoScene.sks in Resources */,
 				B70D1C9421EF7DE100C2FF63 /* Dub SmashoHH.wav in Resources */,
 				B70D1C9821EF7DE100C2FF63 /* Guitar.wav in Resources */,
 				B70D1C9621EF7DE100C2FF63 /* 909ClapV1_X.wav in Resources */,
@@ -230,8 +220,6 @@
 			files = (
 				08F1980721EB686B00FE233A /* GameViewController.swift in Sources */,
 				087F0F0C2195E93E00676B5F /* GameScene.swift in Sources */,
-				B712BB5E21ED188F00481F30 /* SynthViewController.swift in Sources */,
-				B7F3C58021EE704300F4FC14 /* InfoScene.swift in Sources */,
 				087F0F062195E93E00676B5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
